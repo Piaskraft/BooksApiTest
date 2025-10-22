@@ -18,3 +18,24 @@ Projekt edukacyjny z modułu 29.3 (Kodilla) — testy backendu Node.js
 - utils: `cutText`, `formatFullname`
 - API: status / users / books
 - model: `Department` CRUD (Read, Create, Update, Delete)
+
+# 📘 BooksApiTest – Moduł 29 (Testy jednostkowe backendu)
+
+Projekt wykonany w ramach kursu Kodilla Full Stack Developer.
+
+## 🧪 Zakres:
+- Testy jednostkowe (Mocha + Chai)
+- Testy API (Chai-HTTP)
+- Połączenie z MongoDB (Mongoose)
+- Konfiguracja środowisk: dev, test, prod
+
+## ✅ Wynik:
+Wszystkie testy zakończone sukcesem:
+
+![All tests passing](./images/tests_passing.jpg)
+
+**48 passing (372ms)**  
+Oznacza, że API działa poprawnie i przeszło pełną walidację CRUD (GET, POST, PUT, DELETE) oraz modele Mongoose.
+
+---
+
