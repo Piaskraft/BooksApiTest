@@ -4,8 +4,8 @@
   "description": "Projekt testowy do nauki testów backendu",
   "main": "server.js",
   "scripts": {
-    "test": "mocha --watch \"test/**/*.test.js\"",
-    "test:once": "mocha \"test/**/*.test.js\""
+    "test": "set NODE_ENV=test&& mocha \"./{,!(node_modules|client)/**/}*.test.js\"",
+    "test:watch": "onchange \"./**/*.js\" -i -k -- npm test"
   },
   "author": "Twoje imię",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "supertest": "^4.0.2"
   },
   "devDependencies": {
+    "chai-http": "^4.3.0",
     "onchange": "^6.1.0"
   }
 }
