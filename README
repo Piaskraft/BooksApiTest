@@ -1,0 +1,20 @@
+# BooksApiTest
+Projekt edukacyjny z modułu 29.3 (Kodilla) — testy backendu Node.js
+
+## Technologie
+- Node.js + Express  
+- MongoDB (Mongoose)  
+- Mocha + Chai + Supertest  
+- onchange (watcher)
+
+## Uruchomienie
+1. `npm install`
+2. Ustaw w pliku .env  
+   `MONGODB_URI_TEST=mongodb://127.0.0.1:27017/companyDBtest`
+3. `npm test`  – jednorazowe testy  
+   `npm run test:watch`  – tryb automatyczny  
+
+## Zakres testów
+- utils: `cutText`, `formatFullname`
+- API: status / users / books
+- model: `Department` CRUD (Read, Create, Update, Delete)

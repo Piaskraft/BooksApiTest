@@ -15,5 +15,8 @@
     "mocha": "^6.2.1",
     "mongoose": "^8.19.2",
     "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "onchange": "^6.1.0"
   }
 }
